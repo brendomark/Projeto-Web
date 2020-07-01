@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.13.0.final using JasperReports Library version 6.13.0-46ada4d1be8f3c5985fd0b6146f3ed44caed6f05  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="exame_teste" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f94f13ea-3885-4111-a035-0a46b1c3b12d">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="556" height="60" uuid="c5abb77f-448a-4aa9-beb8-a8d75ffd940c">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Coordenação Médica
+Dra. Carla Aparecida Martins Braz – CRM 52.50950/6
+
+REQUISIÇÃO DE ATESTADO DE SAÚDE OCUPACIONAL E PPPP
+]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="203" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="16" width="556" height="187" uuid="8fb9965f-9c64-4273-9273-182a097fd786">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Centro: Exames Clínicos e Exames Complementares.
+     Avenida Presidente Vargas, 529 - 8º andar - Centro - Tel: 3233-5500 
+Horário: 2ª à 6ª feira das 08h00 às 17h00 – Retorno e Avaliação até as 16h00
+			
+Barra: Exames Clínicos, Laboratório, Audiometria, Espirometria e Acuidade Visual.
+Av. das Américas, 1917/Bl A/ Cob 04 – Shopping Riviera Center – Barra da Tijuca – 
+Tel: 2429-1424 
+Horário: 2ª à 6ª feira das 08h00 às 12h00 e das 13h00 às 17h00
+
+Copacabana: Exames Clínicos.
+Avenida Nossa Senhora de Copacabana, 978 – Sala 1006 - Copacabana - Tel: 2522-8996
+Horário: 2ª e 6ª feira das 08h00 às 12h00
+ e 3ª ,4ª e 5ª feira das 08h00 às 12h00 e 13h00 às 17h00 
+]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="136" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="556" height="136" uuid="7356f301-e536-42f0-8228-e2a0eac22e39">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[OS CAMPOS ABAIXO DEVEM SER OBRIGATORIAMENTE PREENCHIDOS!
+PARA QUE POSSAMOS FAZER O ATESTADO CORRETAMENTE!
+
+         Admissional             Periódico            Demissional             PPP            Exames Complementares 
+       
+         Mudança de Função            Retorno de Atividade            Avaliação de Afastamento            PCD]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="280" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="556" height="280" uuid="682107d7-884f-4aef-8fe1-aa6e5dda6137">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[                                                   Empresa Inovatech Consulting S.A
+
+Frente deTrabalho: Rio de Janeiro  CNPJ: 06.189.629/0001-08
+
+Nome do Funcionário: RAPHAEL GOMES VALFRE
+
+CTPS: 6791836  Série: 030	CBO:...................CPF: 139.058.697-99
+
+Função: ANALISTA DE DESENVOLVIMENTO DE TI III   	 Setor:  
+
+PIS: 133.52702.62-3    	Data Adm: 12/06/2019	Data Nasc: 04/11/1993
+
+Regime Trab.: (X) Diário: 40 h/Sem.: ( ) Rodízio:...../......h:  ( ) Variável: ......................
+
+Contato: GLAUCE SANTOS		Telefone/Ramal: 3861-2701
+
+Rio de Janeiro, 17/02/2020			Cliente:.....................................................
+							Carimbo e Assinatura
+]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="89" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="-20" width="556" height="109" uuid="f0185a68-b475-471b-8d5a-40c2099f345f">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[---------------------------------------------------------------------------------------------------------------------
+Recebi o encaminhamento p/ realização de Exame Médico Ocupacional.
+
+Nome:_________________________________________________________________
+
+Ciente do Func:......................................................................Data:........../............../...........
+]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>
